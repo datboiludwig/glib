@@ -72,7 +72,7 @@ public class Window extends Canvas {
 	}
 	
 	public boolean shouldClose() {
-		return !window.isActive();
+		return !window.isShowing();
 	}
 	
 	public void setBackGround(Color c) {
