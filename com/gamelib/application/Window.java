@@ -9,8 +9,6 @@ import java.awt.image.BufferStrategy;
 
 import javax.swing.JFrame;
 
-import com.gamelib.input.Input;
-
 public class Window extends Canvas {
 
 	private static final long serialVersionUID = 4468509268171970692L;

@@ -11,7 +11,7 @@ public class GameLoop {
 	
 	public GameLoop(float fps) {
 		this.fps = fps;
-		ns = 1000000000 / fps;
+		ns = 1000000000 / this.fps;
 	}
 	
 	public boolean shouldUpdate() {

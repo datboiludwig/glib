@@ -7,13 +7,11 @@ import java.util.List;
 public abstract class GameObject {
 	
 	protected int x, y;
-	protected ObjectID id;
 	protected float hsp, vsp;
 	
-	public GameObject(int x, int y, ObjectID id) {
+	public GameObject(int x, int y) {
 		this.x = x;
 		this.y = y;
-		this.id = id;
 	}
 	
 	public abstract void tick(List<GameObject> objects);
@@ -31,6 +29,4 @@ public abstract class GameObject {
 	
 	public void setHsp(float hsp) { this.hsp = hsp; }
 	public void setVsp(float vsp) { this.vsp = vsp; }
-	
-	public ObjectID getID() { return id; }
 }

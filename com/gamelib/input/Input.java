@@ -2,7 +2,6 @@ package com.gamelib.input;
 
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
 
 public abstract class Input extends KeyAdapter {
 
